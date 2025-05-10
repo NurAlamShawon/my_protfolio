@@ -24,7 +24,7 @@ const Skills = () => {
           return (
             <div
               key={logo.name}
-              className="p-4 rounded-2xl shadow-md bg-white dark:bg-gray-800 transition-transform duration-300 transform hover:scale-105"
+              className="p-4 rounded-2xl shadow-md bg-white dark:bg-gray-800 transition-transform duration-300 transform hover:scale-105 hover:bg-gray-600"
             >
               <img
                 src={logo.logo}

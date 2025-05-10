@@ -4,10 +4,10 @@ import Footer from "../Footer/Footer";
 
 import Herosection from "../Herosection/Herosection";
 import About from "../About/About";
-import Projects from "../Projects/Projects";
 import Skills from "../Skills/Skills";
 import Navbar from "../Navbar/Navbar";
 import Education from "../Education/Education";
+import Protfolio from "../Protfolio/Protfolio";
 
 
 
@@ -25,7 +25,7 @@ const Homepage = () => {
         <About></About>
         <Education></Education>
         <Skills></Skills>
-        <Projects></Projects>
+        <Protfolio></Protfolio>
       </main>
       <footer>
         <Footer></Footer>

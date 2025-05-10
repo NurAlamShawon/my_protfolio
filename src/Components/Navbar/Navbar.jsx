@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <div>
-      <div className="navbar shadow-sm  bg-[#3c393b]   ">
+      <div className="navbar shadow-sm   bg-base-100 xl:px-30">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -13,46 +13,46 @@ const Navbar = () => {
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
        <li>
-              <a href="#home" className="text-white">Home</a>
+              <a href="#home" className="text-black">Home</a>
             </li>
             <li>
-              <a href="#about" className="text-white">About</a>
+              <a href="#about" className="text-black">About</a>
             </li>
             <li>
-              <a href="#education" className="text-white">Education</a>
+              <a href="#education" className="text-black">Education</a>
             </li>
             <li>
-              <a href="#skills" className="text-white">Skiils</a>
+              <a href="#skills" className="text-black">Skiils</a>
             </li>
             <li>
-              <a href="#projects" className="text-white">Projects</a>
+              <a href="#projects" className="text-black">Projects</a>
             </li>
             <li>
-              <a href="#contact" className="text-white">Contact</a>
+              <a href="#contact" className="text-black">Contact</a>
             </li>
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl text-white">Protfolio</a>
+    <a className="btn btn-ghost text-xl text-black">Protfolio</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
      <li>
-              <a href="#home" className="text-white">Home</a>
+              <a href="#home" className="text-black">Home</a>
             </li>
             <li>
-              <a href="#about" className="text-white">About</a>
+              <a href="#about" className="text-black">About</a>
             </li>
             <li>
-              <a href="#education" className="text-white">Education</a>
+              <a href="#education" className="text-black">Education</a>
             </li>
             <li>
-              <a href="#skills" className="text-white">Skiils</a>
+              <a href="#skills" className="text-black">Skiils</a>
             </li>
             <li>
-              <a href="#projects" className="text-white">Projects</a>
+              <a href="#projects" className="text-black">Projects</a>
             </li>
             <li>
-              <a href="#contact" className="text-white">Contact</a>
+              <a href="#contact" className="text-black">Contact</a>
             </li>
     </ul>
   </div>
