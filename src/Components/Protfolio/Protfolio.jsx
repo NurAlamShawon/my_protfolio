@@ -15,9 +15,9 @@ const Protfolio = () => {
   console.log(projects);
 
   return (
-    <div className="max-w-screen-xl mx-auto mt-30" id="projects">
+    <div className="max-w-screen-xl mx-auto mt-30" id="portfolio">
       <h1 className="text-black font-bold text-5xl text-center pb-8">
-        Protfolio
+        Portfolio
       </h1>
       <div className="grid grid-cols-1 xl:grid-cols-3 gap-4">
         {projects.map((project) => {
@@ -28,7 +28,7 @@ const Protfolio = () => {
                 alt="Project"
                 className="object-cover transition-transform duration-500 group-hover:scale-110"
               />
-              <div className=" absolute inset-0 bg-gray-400 bg-opacity-60 flex flex-col items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+              <div className=" absolute inset-0 bg-gray-600 bg-opacity-60 flex flex-col items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                 <h3 className="text-lg font-bold mb-2 text-center px-2">
                   {project.name}
                 </h3>
@@ -36,7 +36,7 @@ const Protfolio = () => {
                   href={project.live}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-white text-black px-4 py-2 rounded hover:bg-gray-200 font-semibold text-sm"
+                  className=" text-black px-4 py-2 rounded font-semibold text-sm btn btn-soft btn-info"
                 >
                   View Project
                 </a>
