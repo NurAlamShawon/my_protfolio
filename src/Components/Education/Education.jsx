@@ -31,7 +31,7 @@ const Education = () => {
         isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
       }`}
     >
-      <h1 className="text-black font-bold text-5xl text-center pb-8">
+      <h1 className="text-black font-bold text-5xl text-center pb-8 oswald" >
         Education
       </h1>
 

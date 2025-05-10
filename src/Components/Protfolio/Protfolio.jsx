@@ -16,7 +16,7 @@ const Protfolio = () => {
 
   return (
     <div className="max-w-screen-xl mx-auto mt-30" id="portfolio">
-      <h1 className="text-black font-bold text-5xl text-center pb-8">
+      <h1 className="text-black font-bold text-5xl text-center pb-8 oswald">
         Portfolio
       </h1>
       <div className="grid grid-cols-1 xl:grid-cols-3 gap-4">

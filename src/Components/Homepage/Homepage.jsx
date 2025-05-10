@@ -13,7 +13,7 @@ import Protfolio from "../Protfolio/Protfolio";
 
 const Homepage = () => {
   return (
-    <div >
+    <div className="roboto">
       <header className="bg-cover h-screen bg-center"
       style={{
           backgroundImage: `url(${bg})`

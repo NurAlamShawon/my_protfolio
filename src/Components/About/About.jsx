@@ -25,10 +25,10 @@ const About = () => {
         isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
       }`}
     >
-       <h1 className="text-black font-bold text-5xl  text-center pb-8">
+       <h1 className="text-black font-bold text-5xl  text-center pb-8 oswald">
         About Me
       </h1>
-      <p className="text-black font-medium xl:text-xl text-base text-center p-2">
+      <p className="text-black font-regular xl:text-xl text-base text-center p-2">
         I am a dedicated Computer Science and Engineering student at East West
         University with a deep passion for technology, programming, and
         continuous learning. Over the years, I have gained hands-on experience
@@ -46,20 +46,20 @@ const About = () => {
       <div className="grid grid-cols-1 xl:grid-cols-3 gap-5 pb-10">
         <div className="space-y-5">
           <h1 className="font-bold text-2xl text-black text-center">Phone</h1>
-          <p className="font-medium text-xl text-black text-center">
+          <p className="font-regular text-xl text-black text-center">
             01608969992
           </p>
         </div>
         <div className="space-y-5">
           <h1 className="font-bold text-2xl text-black text-center">Email</h1>
-          <p className="font-medium text-xl text-black text-center">
+          <p className="font-regular text-xl text-black text-center">
             nuralamshawon9992@gmail.com
           </p>
         </div>
 
         <div className="space-y-5">
           <h1 className="font-bold text-2xl text-black text-center">From</h1>
-          <p className="font-medium text-xl text-black text-center">
+          <p className="font-regular text-xl text-black text-center">
             Dhaka,Bangladesh
           </p>
         </div>

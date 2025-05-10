@@ -15,7 +15,7 @@ const Skills = () => {
   console.log(images);
   return (
     <div id="skills" className="mt-20 mb-48">
-      <h1 className="text-black font-bold text-5xl text-center pt-10 pb-28">
+      <h1 className="text-black font-bold text-5xl text-center pt-10 pb-28 oswald">
         Skills
       </h1>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8 p-6"
