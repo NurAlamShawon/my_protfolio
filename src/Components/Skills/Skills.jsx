@@ -17,12 +17,12 @@ const Skills = () => {
       <h1 className="text-black font-bold text-5xl text-center pt-10 pb-28 oswald">
         Skills
       </h1>
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8 p-6">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 p-6">
         {images.map((logo) => {
           return (
             <div
               key={logo.name}
-              className=" relative group mx-auto pt-8 w-50 h-40 bg-gray-300 overflow-hidden rounded-xl shadow-lg border-2 border-gray-400 mt-10"
+              className=" relative group mx-auto pt-8 xl:w-50 w-43 h-40 bg-gray-300 overflow-hidden rounded-xl shadow-lg border-2 border-gray-400 mt-10"
             >
               <img
                 src={logo.logo}

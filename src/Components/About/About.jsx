@@ -21,14 +21,20 @@ const About = () => {
     <div
       id="about"
       ref={ref}
-      className={`mb-36 transition-all duration-700 ease-out transform  max-w-screen-xl mx-auto pt-28  space-y-8 p-10${
+      className={`mb-48 transition-all duration-700 ease-out transform  max-w-screen-xl mx-auto pt-28  space-y-8 p-10${
         isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
       }`}
     >
-       <h1 className="text-black font-bold text-5xl  text-center pb-8 oswald">
+      
+
+
+
+      <div className="flex flex-col-reverse xl:flex-row items-center justify-between">
+        <div className="xl:w-4/6 x:p-0 p-2">
+         <h1 className="text-black font-bold text-5xl  text-center pb-8 oswald">
         About Me
       </h1>
-      <p className="text-black font-regular xl:text-xl text-base text-center p-2">
+   <p className="text-black font-regular xl:text-xl text-base text-center p-2">
         I am a dedicated Computer Science and Engineering student at East West
         University with a deep passion for technology, programming, and
         continuous learning. Over the years, I have gained hands-on experience
@@ -64,6 +70,13 @@ const About = () => {
           </p>
         </div>
       </div>
+        </div>
+
+        <div className="xl:w-2/6">
+<img src="../../../src/assets/my pic1.png" alt=""  className=" mb-20"/>
+        </div>
+      </div>
+   
     </div>
   );
 };
