@@ -28,8 +28,8 @@ const Protfolio = () => {
                 alt="Project"
                 className="object-cover transition-transform duration-500 group-hover:scale-110"
               />
-              <div className=" absolute inset-0 bg-gray-600 bg-opacity-60 flex flex-col items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                <h3 className="text-lg font-bold mb-2 text-center px-2">
+              <div className=" absolute inset-0 bg-blue-500/15 backdrop-blur-sm bg-opacity-60 flex flex-col items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                <h3 className="text-lg font-bold mb-2 text-center px-2 text-black">
                   {project.name}
                 </h3>
                 <a

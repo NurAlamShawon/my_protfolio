@@ -1,42 +1,52 @@
 [
   {
     "name": "JavaScript",
-    "logo": "https://img.icons8.com/color/480/javascript.png"
+    "logo": "https://img.icons8.com/color/480/javascript.png",
+    "skillLevel":90
   },
   {
     "name": "HTML",
-    "logo": "https://img.icons8.com/color/480/html-5--v1.png"
+    "logo": "https://img.icons8.com/color/480/html-5--v1.png",
+    "skillLevel":90
   },
   {
     "name": "CSS",
-    "logo": "https://img.icons8.com/color/480/css3.png"
+    "logo": "https://img.icons8.com/color/480/css3.png",
+    "skillLevel":80
   },
   {
     "name": "Tailwind CSS",
-    "logo": "https://img.icons8.com/color/480/tailwind_css.png"
+    "logo": "https://img.icons8.com/color/480/tailwind_css.png",
+    "skillLevel":95
   },
   {
     "name": "React",
-    "logo": "https://img.icons8.com/color/480/react-native.png"
+    "logo": "https://img.icons8.com/color/480/react-native.png",
+    "skillLevel":80
   },
   {
     "name": "Firebase",
-    "logo": "https://img.icons8.com/color/480/firebase.png"
+    "logo": "https://img.icons8.com/color/480/firebase.png",
+    "skillLevel":75
   },
   {
     "name": "C",
-    "logo": "https://img.icons8.com/color/480/c-programming.png"
+    "logo": "https://img.icons8.com/color/480/c-programming.png",
+    "skillLevel":60
   },
   {
     "name": "C++",
-    "logo": "https://img.icons8.com/color/480/c-plus-plus-logo.png"
+    "logo": "https://img.icons8.com/color/480/c-plus-plus-logo.png",
+    "skillLevel":65
   },
   {
     "name": "Java",
-    "logo": "https://img.icons8.com/color/480/java-coffee-cup-logo.png"
+    "logo": "https://img.icons8.com/color/480/java-coffee-cup-logo.png",
+    "skillLevel":60
   },
   {
     "name": "Figma",
-    "logo": "https://img.icons8.com/color/480/figma.png"
+    "logo": "https://img.icons8.com/color/480/figma.png",
+    "skillLevel":60
   }
 ]
