@@ -103,7 +103,7 @@ const About = () => {
             visible ? "animate-slide-in-right" : "opacity-0"
           }`}
         >
-          <img src="../../../src/assets/my pic1.png" alt="me" />
+          <img src="https://i.postimg.cc/0Ngqrttt/my-pic1.png" alt="me" />
         </div>
       </div>
     </div>
