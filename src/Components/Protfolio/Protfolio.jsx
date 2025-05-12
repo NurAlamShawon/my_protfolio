@@ -15,7 +15,7 @@ const Protfolio = () => {
   console.log(projects);
 
   return (
-    <div className="max-w-screen-xl mx-auto mt-30" id="portfolio">
+    <div className="max-w-screen-xl mx-auto pt-30" id="portfolio">
       <h1 className="text-black font-bold text-5xl text-center pb-8 oswald">
         Portfolio
       </h1>

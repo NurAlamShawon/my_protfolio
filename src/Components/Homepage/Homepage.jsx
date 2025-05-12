@@ -15,11 +15,11 @@ import Contact from "../Contact/Contact";
 const Homepage = () => {
   return (
     <div className="roboto">
+     <Navbar></Navbar>
       <header className="bg-cover h-screen bg-center"
       style={{
           backgroundImage: `url(${bg})`
-        }}>
-        <Navbar></Navbar>
+        }}> 
         <Herosection></Herosection>
       </header>
       <main>

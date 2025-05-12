@@ -2,8 +2,8 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div>
-      <div className="navbar shadow-sm   bg-base-100 xl:px-30">
+    <div className="  sticky top-0 z-50">
+      <div className="navbar shadow-sm  bg-base-100 xl:px-30">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -32,7 +32,7 @@ const Navbar = () => {
             </li>
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl text-black">Protfolio</a>
+    <a className="btn btn-ghost text-xl text-black">Portfolio</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
