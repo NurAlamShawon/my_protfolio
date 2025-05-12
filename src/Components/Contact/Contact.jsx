@@ -8,7 +8,7 @@ const Contact = () => {
     emailjs
       .sendForm(
         "service_thlna7w", // Your actual Service ID
-        "template_3ffhbfu", // Your actual Template ID
+        "template_86zqcde", // Your actual Template ID
         e.target, // Pass the form directly
         "284F7HWLK4ZKXycci" // Use your actual EmailJS public API key here
       )
