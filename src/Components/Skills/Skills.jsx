@@ -17,7 +17,7 @@ const Skills = () => {
     setIsOpen((prev) => !prev);
   }
     return (
-      <div id="skills" className="mt-20 mb-48">
+      <div id="skills" className="mt-20 mb-48 pt-10">
         <h1 className="text-black font-bold text-5xl text-center pt-10 pb-28 oswald">
           Skills
         </h1>
@@ -61,3 +61,4 @@ const Skills = () => {
   };
 
 export default Skills;
+
