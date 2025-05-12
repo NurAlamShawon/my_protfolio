@@ -8,6 +8,7 @@ import Skills from "../Skills/Skills";
 import Navbar from "../Navbar/Navbar";
 import Education from "../Education/Education";
 import Protfolio from "../Protfolio/Protfolio";
+import Contact from "../Contact/Contact";
 
 
 
@@ -28,6 +29,7 @@ const Homepage = () => {
         <Protfolio></Protfolio>
       </main>
       <footer>
+        <Contact></Contact>
         <Footer></Footer>
       </footer>
     </div>

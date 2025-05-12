@@ -32,11 +32,6 @@ const About = () => {
       observer.observe(imgRef.current);
     }
 
-    return () => {
-      if (imgRef.current) {
-        observer.unobserve(imgRef.current);
-      }
-    };
   }, []);
 
   return (
@@ -47,8 +42,8 @@ const About = () => {
         isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
       }`}
     >
-      <div className="flex flex-col-reverse xl:flex-row items-center justify-between">
-        <div className="xl:w-4/6 x:p-0 p-2">
+      <div className="flex flex-col-reverse xl:flex-row items-center justify-between ">
+        <div className="xl:w-4/6 x:p-0 p-2 ">
           <h1 className="text-black font-bold text-5xl  text-center pb-8 oswald">
             About Me
           </h1>
@@ -99,11 +94,11 @@ const About = () => {
 
         <div
           ref={imgRef}
-          className={`xl:w-2/6 mb-20 transition-opacity duration-1000 ${
+          className={`xl:w-2/6 mb-15 p-10 transition-opacity duration-1000 ${
             visible ? "animate-slide-in-right" : "opacity-0"
           }`}
         >
-          <img src="https://i.postimg.cc/0Ngqrttt/my-pic1.png" alt="me" />
+          <img src="https://i.postimg.cc/WzRHvwRn/Photoroom-20250512-212812.png" alt="me"/>
         </div>
       </div>
     </div>
