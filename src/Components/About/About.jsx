@@ -1,49 +1,26 @@
-import React, { useEffect, useState } from "react";
+import React  from "react";
 import { useRef } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 const About = () => {
   const ref = useRef();
   const imgRef = useRef(null);
-  const [visible, setVisible] = useState(false);
-  const [isVisible, setIsVisible] = useState(false);
 
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => setIsVisible(entry.isIntersecting),
-      { threshold: 0.1 }
-    );
-
-    if (ref.current) {
-      observer.observe(ref.current);
-    }
-
-    return () => observer.disconnect();
-  }, []);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        setVisible(entry.isIntersecting);
-      },
-      { threshold: 0.5 }
-    );
-
-    if (imgRef.current) {
-      observer.observe(imgRef.current);
-    }
-
-  }, []);
 
   return (
     <div
       id="about"
       ref={ref}
-      className={`mb-48 transition-all duration-700 ease-out transform  max-w-screen-xl mx-auto pt-28  space-y-8 p-10${
-        isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-      }`}
+      className="mb-48 transition-all duration-700 ease-out transform  max-w-screen-xl mx-auto pt-28  space-y-8 p-10"
+      
     >
       <div className="flex flex-col-reverse xl:flex-row items-center justify-between ">
-        <div className="xl:w-4/6 x:p-0 p-2 ">
+        <div className="xl:w-4/6 x:p-0 p-2 "
+        data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600"
+        >
           <h1 className="text-black font-bold text-5xl  text-center pb-8 oswald">
             About Me
           </h1>
@@ -94,9 +71,8 @@ const About = () => {
 
         <div
           ref={imgRef}
-          className={`xl:w-2/6 mb-15 p-10 transition-opacity duration-1000 ${
-            visible ? "animate-slide-in-right" : "opacity-0"
-          }`}
+          className="xl:w-2/6 mb-15 p-10 transition-opacity duration-1000"
+          data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600"
         >
           <img src="https://i.postimg.cc/WzRHvwRn/Photoroom-20250512-212812.png" alt="me"/>
         </div>

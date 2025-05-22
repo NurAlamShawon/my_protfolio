@@ -1,5 +1,9 @@
 
 import React, { useEffect, useState } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 const Protfolio = () => {
   const [projects, setprojects] = useState([]);
@@ -15,14 +19,18 @@ const Protfolio = () => {
   console.log(projects);
 
   return (
-    <div className="max-w-screen-xl mx-auto pt-30" id="portfolio">
+    <div className="max-w-screen-xl mx-auto pt-30" id="portfolio"
+     data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600"
+    >
       <h1 className="text-black font-bold text-5xl text-center pb-8 oswald">
         Portfolio
       </h1>
       <div className="grid grid-cols-1 xl:grid-cols-3 gap-4">
         {projects.map((project) => {
           return (
-            <div className="relative group mx-auto w-80 h-140 overflow-hidden rounded-xl shadow-lg border-2 border-gray-400 mt-10">
+            <div className="relative group mx-auto w-80 h-140 overflow-hidden rounded-xl shadow-lg border-2 border-gray-400 mt-10"
+             data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600"
+            >
               <img
                 src={project.image}
                 alt="Project"

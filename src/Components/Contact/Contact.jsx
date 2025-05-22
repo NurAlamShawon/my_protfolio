@@ -1,5 +1,9 @@
 import React from "react";
 import emailjs from "emailjs-com";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 const Contact = () => {
   const handleSubmit = (e) => {
@@ -29,19 +33,24 @@ const Contact = () => {
     <div
       className="max-w-screen-xl mx-auto pt-30  mt-20 "
       id="contact"
+      data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600"
     >
       <h1 className="text-black font-bold text-5xl text-center pt-10 pb-28 oswald ">
         Contact
       </h1>
       <div className="xl:flex items-center bg-[#EAE4D5] p-10 rounded-2xl">
-        <div>
+        <div
+        data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600"
+        >
           <img
             src="https://i.postimg.cc/DwLwsLKb/image-removebg-preview-8.png"
             alt=""
           />
         </div>
 
-        <div>
+        <div
+        data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600"
+        >
           <form onSubmit={handleSubmit} className="space-y-4">
             <input
               type="text"

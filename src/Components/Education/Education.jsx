@@ -1,42 +1,29 @@
-import React, { useEffect, useRef, useState } from "react";
+import React from "react";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 const Education = () => {
-  const ref = useRef();
-  const [isVisible, setIsVisible] = useState(false);
 
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        console.log("Visible:", entry.isIntersecting);
-        setIsVisible(entry.isIntersecting);
-      },
-      { threshold: 0.1 }
-    );
 
-    const current = ref.current;
-    if (current) {
-      observer.observe(current);
-    }
 
-    return () => {
-      if (current) observer.unobserve(current);
-    };
-  }, []);
 
   return (
     <div
       id="education"
-      ref={ref}
-      className={`mt-10 transition-all duration-700 ease-out transform space-y-8 p-10 pt-30 max-w-screen-xl mx-auto bg-stone-300 rounded-2xl mb-16 ${
-        isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-      }`}
+      data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600"
+      className="mt-10 transition-all duration-700 ease-out transform space-y-8 p-10 pt-30 max-w-screen-xl mx-auto bg-stone-300 rounded-2xl mb-16" 
     >
       <h1 className="text-black font-bold text-5xl text-center pb-8 oswald" >
         Education
       </h1>
 
       <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
-        <li>
+        <li
+          data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600"
+        
+        >
           <div className="timeline-middle">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +48,8 @@ const Education = () => {
           </div>
           <hr />
         </li>
-        <li>
+        <li
+        data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
           <hr />
           <div className="timeline-middle">
             <svg
@@ -87,7 +75,8 @@ const Education = () => {
           </div>
           <hr />
         </li>
-        <li>
+        <li
+        data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
           <hr />
           <div className="timeline-middle">
             <svg

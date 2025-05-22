@@ -1,7 +1,5 @@
 import React from "react";
 import Footer from "../Footer/Footer";
- import bg from '../../../src/assets/bg2.PNG';
-
 import Herosection from "../Herosection/Herosection";
 import About from "../About/About";
 import Skills from "../Skills/Skills";
@@ -16,10 +14,8 @@ const Homepage = () => {
   return (
     <div className="roboto">
      <Navbar></Navbar>
-      <header className="bg-cover h-screen bg-center"
-      style={{
-          backgroundImage: `url(${bg})`
-        }}> 
+
+      <header> 
         <Herosection></Herosection>
       </header>
       <main>

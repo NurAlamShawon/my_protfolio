@@ -1,0 +1,28 @@
+{
+  "images": [
+    {
+      "id": "img1",
+      "url": "https://i.postimg.cc/x8dkL0Nb/david-schultz-Srew-PUfo2c0-unsplash.jpg"
+    },
+    {
+      "id": "img2",
+      "url": "https://i.postimg.cc/k5FDZVxb/bg1-for-portfolio.png"
+    },
+    {
+      "id": "img3",
+      "url": "https://i.postimg.cc/FKsgTQSN/bg2-for-portfolio.png"
+    },
+    {
+      "id": "img4",
+      "url": "https://i.postimg.cc/QxmF0KJK/growtika-MH45p-KGm-Wq-A-unsplash.jpg"
+    },
+    {
+      "id": "img5",
+      "url": "https://i.postimg.cc/4y5xLjVR/bg3.jpg"
+    },
+    {
+      "id": "img6",
+      "url": "https://i.postimg.cc/fWjyRSFq/bg2.png"
+    }
+  ]
+}
