@@ -9,6 +9,9 @@
 html {
   scroll-behavior: smooth;
 }
+html, body {
+  overflow-x: hidden;
+}
 
 .roboto {
   font-family: "Roboto", sans-serif;

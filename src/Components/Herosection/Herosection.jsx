@@ -30,7 +30,7 @@ const Herosection = () => {
     <div
       id="home"
       data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600"
-      className="z-0 relative max-w-screen-2xl  mt-5 transition-all duration-700 ease-out flex items-center justify-center transform mx-auto  rounded-2xl"
+      className="relative max-w-screen-2xl  mt-5 transition-all duration-700 ease-out flex items-center justify-center transform mx-auto  rounded-2xl"
       style={{ height: "calc(100vh - 8rem)" }}
     >
       <Swiper
@@ -59,7 +59,7 @@ const Herosection = () => {
       </Swiper>
 
       <div
-        className="space-y-5 absolute xl:top-65 xl:left-58 z-50 backdrop-blur-md bg-black/30 rounded-xl p-5 mx-2 xl:mx-0"
+        className="space-y-5 absolute xl:top-60 xl:left-1/2 z-5 backdrop-blur-md bg-black/30 rounded-xl p-5 mx-2 xl:mx-0"
         data-aos="fade-left"
         data-aos-offset="200"
         data-aos-easing="ease-in-sine"

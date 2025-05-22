@@ -21,25 +21,28 @@ const Skills = () => {
     setIsOpen((prev) => !prev);
   }
     return (
-      <div id="skills" className="mt-20 mb-48 pt-10"
+      <div id="skills" className="mt-20 mb-38 pt-10"
       data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600"
       >
         <h1 className="text-black font-bold text-5xl text-center pt-10 pb-28 oswald">
           Skills
         </h1>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 p-6">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 p-6"
+         data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600"
+        >
           {images.map((logo) => {
             return (
               <div
                 key={logo.name}
                 className="relative group mx-auto pt-4 sm:pt-8 w-[170px] sm:w-[200px] h-40 bg-gray-300 overflow-hidden rounded-xl shadow-lg border-2 border-gray-400 mt-6 sm:mt-10"
                 onClick={toggleOverlay} // Handles tap/click
-                data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600"
+               
               >
                 <img
                   src={logo.logo}
                   alt={logo.name}
                   className="w-24 h-24 object-contain mx-auto pointer-events-none"
+                   data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600"
                 />
                 <div
                   className={`
