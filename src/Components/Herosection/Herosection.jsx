@@ -59,7 +59,7 @@ const Herosection = () => {
       </Swiper>
 
       <div
-        className="space-y-5 absolute xl:top-60 xl:left-1/2 z-5 backdrop-blur-md bg-black/30 rounded-xl p-5 mx-2 xl:mx-0"
+        className="space-y-5 absolute xl:top-60 xl:left-55 z-5 backdrop-blur-md bg-black/30 rounded-xl p-5 mx-2 xl:mx-0"
         data-aos="fade-left"
         data-aos-offset="200"
         data-aos-easing="ease-in-sine"

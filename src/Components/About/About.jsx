@@ -43,27 +43,27 @@ const About = () => {
           <div className="grid grid-cols-1 xl:grid-cols-3 gap-5 pb-10">
             <div className="space-y-5">
               <h1 className="font-bold text-2xl text-black text-center">
-                Phone
+              Phone
               </h1>
               <p className="font-regular text-xl text-black text-center">
-                01608969992
+              01608969992
               </p>
             </div>
             <div className="space-y-5">
               <h1 className="font-bold text-2xl text-black text-center">
-                Email
+              Email
               </h1>
               <p className="font-regular text-xl text-black text-center">
-                nuralamshawon9992@gmail.com
+              nuralamshawon9992@gmail.com
               </p>
             </div>
 
             <div className="space-y-5">
               <h1 className="font-bold text-2xl text-black text-center">
-                From
+              From
               </h1>
               <p className="font-regular text-xl text-black text-center">
-                Dhaka,Bangladesh
+              Dhaka,Bangladesh
               </p>
             </div>
           </div>

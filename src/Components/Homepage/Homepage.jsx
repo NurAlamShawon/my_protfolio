@@ -13,22 +13,22 @@ import Contact from "../Contact/Contact";
 const Homepage = () => {
   return (
     <div className="roboto">
-     <Navbar></Navbar>
+  <Navbar />    
+  <header> 
+    <Herosection />
+  </header>
+  <main>
+    <About />
+    <Education />
+    <Skills />
+    <Protfolio />
+  </main>
+  <footer>
+    <Contact />
+    <Footer />
+  </footer>
+</div>
 
-      <header> 
-        <Herosection></Herosection>
-      </header>
-      <main>
-        <About></About>
-        <Education></Education>
-        <Skills></Skills>
-        <Protfolio></Protfolio>
-      </main>
-      <footer>
-        <Contact></Contact>
-        <Footer></Footer>
-      </footer>
-    </div>
   );
 };
 

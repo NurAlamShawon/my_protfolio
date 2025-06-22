@@ -93,7 +93,7 @@ const Education = () => {
             </svg>
           </div>
           <div className="timeline-start mb-10 md:text-end">
-            <time className="font-mono italic">2021-2024</time>
+            <time className="font-mono italic">2021-2025</time>
             <div className="text-lg font-black">
               Bachelor in Computer Science And Engineering
             </div>
